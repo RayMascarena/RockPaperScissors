@@ -2,6 +2,14 @@ body {
   background-color: rgb(25, 25, 25);
   font-family: arial;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  flex-direction: row;
 }
 
 .game-name {
